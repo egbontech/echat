@@ -1,0 +1,26 @@
+@media only screen and (max-width: 500px) {
+  .form {
+    width: 90vw;
+  }
+  .chatpage-wrapper .container{
+    width: 94%;
+  }
+  .chat-messages{
+    height: 100vh;
+    margin-top:140px;
+    padding-bottom: 50px;
+  }
+  .chat-input{
+    position:fixed;
+    bottom: 0;
+    width: 95%;
+  }
+  .chat-header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+  }
+  .chat-messages .message .message-content {
+   font-size: .9rem;
+  }
+}
