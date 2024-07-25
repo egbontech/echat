@@ -17,3 +17,4 @@ This is a real-time chat application built using Node.js, Next.js, WebSocket (So
 - Socket.IO
 - MySQL
 - React
+- TypeScript
