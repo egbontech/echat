@@ -103,7 +103,7 @@ const ChatPage = ({ params }: Props) => {
       messagesContainerRef.current.scrollTo({
         top: 0,
         behavior: "smooth",
-      });
+      }); 
     }
   }, []);
 
