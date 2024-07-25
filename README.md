@@ -9,3 +9,11 @@ This is a real-time chat application built using Node.js, Next.js, WebSocket (So
 - Notification of user actions (join/leave)
 - Persistent message storage with MySQL
 - Responsive design
+
+### Technologies Used
+- Node.js
+- Express.js
+- Next.js
+- Socket.IO
+- MySQL
+- React
