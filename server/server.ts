@@ -50,8 +50,7 @@ io.on("connection", (socket) => {
     socket.to(room).emit("userNotification", {
       username,
       content: `${username} has joined the chat`,
-    });
-
+    });  
   });
 
   // Listen for leftRoom event and remove the user from the room
@@ -67,7 +66,7 @@ io.on("connection", (socket) => {
   });
 
   socket.on("disconnect", () => {
-    console.log("user disconnected");
+    console.log("user disconnected");    
   });
 });
 

@@ -1,5 +1,5 @@
-// export const baseUrl = 'http://127.0.0.1:8000';
-export const baseUrl = 'http://localhost:5000';
+export const baseUrl = 'https://echat.egbontech.com';
+// export const baseUrl = 'http://localhost:5000';
 
 
 

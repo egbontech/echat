@@ -1,13 +1,10 @@
 @media only screen and (max-width: 500px) {
   .form {
     width: 90vw;
-  }
-  .chatpage-wrapper .container{
-    width: 94%;
-  }
+  } 
   .chat-messages{
     height: 100vh;
-    margin-top:140px;
+    margin-top:180px;
     padding-bottom: 50px;
   }
   .chat-input{

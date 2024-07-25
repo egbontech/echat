@@ -61,8 +61,7 @@ export default function LoginPage() {
       await axios
         .post("/login", data)
         .then((res) => {
-          if (res.data.status === "success") {
-            console.log(res.data.user);
+          if (res.data.status === "success") {           
             try {
               const userData = {
                 username: res.data.user?.username,

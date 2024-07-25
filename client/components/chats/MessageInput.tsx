@@ -12,7 +12,7 @@ const MessageInput: React.FC<MessageInputProps> = ({ room, userId,username }) =>
   const [message, setMessage] = useState("");
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
   const audio = new Audio("/assets/audio/comment.wav");
-  audio.volume = 0.3;
+  audio.volume = 0.1;
 
   const updateMessage = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const newValue = e.target.value;
